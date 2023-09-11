@@ -1,0 +1,22 @@
+@import '../../variables.css';
+
+.about-wrapper {
+    background-color: var(--light-dark);
+    padding: 50px 0;
+}
+    
+.about-wrapper h2 {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 3.5em;
+    color: var(--light-white);
+}
+
+.about-wrapper span {
+    color: var(--barber-orange);
+}
+    
+.about-wrapper p {
+    color: var(--light-white);
+    padding: 10px 0;
+}

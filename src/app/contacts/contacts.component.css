@@ -1,0 +1,18 @@
+@import '../../variables.css';
+
+.contacts-wrapper{
+    padding: 25px 0;
+    color: var(--light-white);
+    background-color: var(--light-dark);
+}
+
+.contact-card-wrapper {
+    margin: 50px 0;
+}
+        
+.contact-card-wrapper h2 {
+    color: var(--barber-orange);
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 2.5em;
+}

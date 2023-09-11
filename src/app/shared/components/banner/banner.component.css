@@ -1,0 +1,122 @@
+* {
+    --light-white: #e1e1e1;
+    --barber-orange: #F36C4F;
+    
+    --light-dark: #101010;
+    --bold-dark: #080808;
+    --bg-black: #030303;
+    
+    --iphone11-h1: 4em;
+    --iphone11-h2: 2.5em;
+    --iphone11-p: 1em;
+    
+    --iphone6-h1: 3.5em;
+    --iphone6-h2: 2em;
+    --iphone6-p: 1em;
+    
+    --iphone5-h1: 3em;
+    --iphone5-h2: 2em;
+    --iphone5-p: 0.9em;
+    
+    --ipad-h2: 3em;
+    --ipad-p: 0.9em;
+}
+
+#banner {
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.425)), 
+    url('../../../../assets/images/home/carousel/pic1.png');  
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+    
+#banner h1 {
+    font-family: 'Teko', sans-serif;
+    margin-top: 0;
+    letter-spacing: 2.25px;
+    font-size: 5.5em;
+    padding-top: 25vh;
+    color: var(--light-white);
+}
+        
+#banner span {
+    color: var(--barber-orange);
+}
+
+#banner h4 {
+    font-size: 1em;
+    position: relative;
+    color: var(--light-white);
+    margin : 0 auto;
+    width: 250px;
+}
+
+#banner h4 ::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: var(--light-white);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+        
+#banner h4 ::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: var(--light-white);
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+#banner a{
+    margin-top: 60px;
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+}
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    #banner h1 {
+        font-size: var(--iphone11-h1);
+    }
+    #banner a {
+        margin-top: 85px;
+        padding: 20px 2em;
+    }
+}
+
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    #banner h1 {
+        font-size: var(--iphone6-h1);
+    }
+    #banner a {
+        margin-top: 85px;
+        padding: 20px 2em;
+    }
+}
+
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    #banner h1 {
+        font-size: var(--iphone5-h1);
+}
+        
+    #banner a {
+        margin-top: 65px;
+        padding: 20px 2em;
+    }
+}

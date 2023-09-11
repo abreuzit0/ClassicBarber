@@ -1,0 +1,147 @@
+* {
+    --light-white: #e1e1e1;
+    --barber-orange: #F36C4F;
+    
+    --light-dark: #101010;
+    --bold-dark: #080808;
+    --bg-black: #030303;
+    
+    --iphone11-h1: 4em;
+    --iphone11-h2: 2.5em;
+    --iphone11-p: 1em;
+    
+    --iphone6-h1: 3.5em;
+    --iphone6-h2: 2em;
+    --iphone6-p: 1em;
+    
+    --iphone5-h1: 3em;
+    --iphone5-h2: 2em;
+    --iphone5-p: 0.9em;
+    
+    --ipad-h2: 3em;
+    --ipad-p: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-custom {
+    justify-content: space-between;
+    background: var(--bg-black);
+    box-shadow: none;
+}
+    
+.navbar-collapse {
+    flex-grow: 0;
+    }
+
+.navi {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#navbarSupportedContent a {
+    color: var(--light-white);
+    font-size: 16px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-brand span {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 45px;
+    height: 45px;
+    transform: rotate(20deg);;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    height: 48px;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.navbar-toggler span {
+    width: 0px;
+}
+
+.navbar-toggler img {
+    width: 25px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+@media (min-width: 576px) {   
+    .navbar-expand-sm {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    }
+
+    
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .navbar-toggler {
+        visibility: hidden;
+    }
+
+}

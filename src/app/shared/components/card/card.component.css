@@ -1,0 +1,28 @@
+@import '../../../../variables.css';
+
+.card-wrapper{
+    background-color: var(--light-dark);
+    color: var(--light-white);
+    margin: 30px 20px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    
+.card-wrapper img {
+    width: 70px;
+    height: 70px;
+}
+    
+.card-wrapper h3 {
+    color: var(--barber-orange);
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 2.5em;
+}
+    
+.card-wrapper p {
+    padding: 0 10px;
+}

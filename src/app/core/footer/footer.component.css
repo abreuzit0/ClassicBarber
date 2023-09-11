@@ -1,0 +1,38 @@
+@import "../../../variables.css";
+
+.footer-wrapper{
+    background: var(--bg-black);
+    color: var(--light-white);
+    padding: 60px 0;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-wrapper span {
+    color: var(--barber-orange);
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

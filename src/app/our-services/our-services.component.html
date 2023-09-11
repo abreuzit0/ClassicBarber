@@ -1,0 +1,47 @@
+<!-- <div id="services-bg-wrapper" class="text-center">
+    <h1>OUR <span>SERVICES</span></h1>
+</div> -->
+
+<app-feature-banner [head]="head" [coloredHead]="coloredHead"></app-feature-banner>
+
+<div class="services-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <h2 class="text-center">ABOUT <span>OUR TECHNOLOGY</span></h2>
+                <p>Our barbershop is the territory created purely for those who appreciate premium quality, time and flawless look. Welcome to BarberX !</p>
+                <div class="text-center">
+                    <a routerLink="" class="btn barber-x-btn">ABOUT US</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <img src="../../assets/images/our-services/about-tech.jpg" alt="about our tech image">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cards-wrapper">
+    <div class="text-center">
+        <h2>WHAT <span>WE OFFER</span></h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <app-card [icon]='cards[0].img' [cardTitle]="cards[0].title" [description]="cards[0].desc"></app-card>
+            </div>
+            <div class="col-12 col-md-4">
+                <app-card [icon]='cards[1].img' [cardTitle]="cards[1].title" [description]="cards[1].desc"></app-card>
+            </div>
+            <div class="col-12 col-md-4">
+                <app-card [icon]='cards[2].img' [cardTitle]="cards[2].title" [description]="cards[2].desc"></app-card>
+            </div>
+            <div class="col-12 col-md-4 offset-md-2">
+                <app-card [icon]='cards[3].img' [cardTitle]="cards[3].title" [description]="cards[3].desc"></app-card>
+            </div>
+            <div class="col-12 col-md-4">
+                <app-card [icon]='cards[4].img' [cardTitle]="cards[4].title" [description]="cards[4].desc"></app-card>
+            </div>
+        </div>
+    </div>
+</div>

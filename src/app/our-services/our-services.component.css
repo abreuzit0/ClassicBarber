@@ -1,0 +1,114 @@
+@import '../../variables.css';
+
+.services-wrapper{
+    padding: 80px 0;
+    background-color: var(--light-dark);
+    color: var(--light-white);
+}    
+
+.services-wrapper h2 {
+        font-family: 'Teko', sans-serif;
+        letter-spacing: 2.25px;
+        font-size: 3.5em;
+}
+
+.services-wrapper span {
+    color: var(--barber-orange);
+}
+    
+.services-wrapper p {
+    padding: 30px 0;
+}
+
+.services-wrapper img {
+    max-width: 100%;
+}
+
+.cards-wrapper {
+    padding: 70px 0;
+    background-color: var(--bg-black);
+}
+
+.services-wrapper h2{
+    font-size: 3.5em;
+    color: var(--light-white);
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+}
+
+.services-wrapper span{
+    color: var(--barber-orange);
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    .services-wrapper h2 {
+        font-size: var(--ipad-h2);
+    }
+    
+    .services-wrapper p {
+        text-align: center;
+    }
+
+    .cards-wrapper h2 {
+        font-size: var(--ipad-h2);
+    }
+}
+
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    .services-wrapper h2 {
+        font-size: var(--iphone11-h2);
+    }
+        
+    .services-wrapper p {
+        padding: 30px 0;
+        text-align: center;
+    }
+    
+    .services-wrapper a {
+        margin-bottom: 50px;
+    }
+    
+    .cards-wrapper h2 {
+        font-size: var(--iphone11-h2);
+    }
+}
+
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    .services-wrapper h2 {
+        font-size: var(--iphone6-h2);
+    }
+     
+    .services-wrapper p {
+        font-size: var(--iphone6-p);
+    }
+    
+    .cards-wrapper h2 {
+        font-size: var(--iphone6-h2);
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    .services-wrapper h2 {
+        font-size: var(--iphone5-h2);
+    }
+        
+    .services-wrapper p {
+        font-size: var(--iphone5-p);
+    }
+    
+    .services-wrapper a{
+        padding: 20px 2em;
+    }
+    
+    .cards-wrapper h2 {
+        font-size: var(--iphone5-h2);
+    }
+}
+

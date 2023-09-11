@@ -1,0 +1,44 @@
+@import '../../../../variables.css';
+
+#feature-banner-wrapper{
+    height: 70vh;
+    background-image: url('../../../../assets/images/shared/feature-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature-banner h1 {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 5.5em;
+    color: var(--light-white);
+}
+ 
+#feature-banner-wrapper span {
+    color: var(--barber-orange);
+}
+ 
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    #feature-banner-wrapper h1 {
+        font-size: var(--iphone11-h1);
+    }
+}
+
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    #feature-banner-wrapper h1 {
+        font-size: var(--iphone6-h1);
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    #feature-banner-wrapper h1 {
+        font-size: var(--iphone5-h1);
+    }
+}
