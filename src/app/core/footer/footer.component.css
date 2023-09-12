@@ -1,12 +1,14 @@
 @import "../../../variables.css";
 
-.footer-wrapper{
+.footer-wrapper {
     background: var(--bg-black);
     color: var(--light-white);
     padding: 60px 0;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2.25px;
     font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2
 }
 
 .container {

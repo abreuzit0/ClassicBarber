@@ -1,5 +1,13 @@
 @import '../../variables.css';
 
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
 .contacts-wrapper{
     padding: 25px 0;
     color: var(--light-white);
@@ -15,4 +23,7 @@
     font-family: 'Teko', sans-serif;
     letter-spacing: 2.25px;
     font-size: 2.5em;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
 }
