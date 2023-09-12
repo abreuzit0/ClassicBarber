@@ -1,15 +1,58 @@
 @import '../../variables.css';
 
-.services-wrapper{
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-about {
+    display: flex;
+    justify-content: center;
+}
+
+.col-about {
+    max-width: 33.333333%;
+    padding: 0 15px 0 15px;
+}
+
+.col-about h2 {
+    margin-bottom: 0.5rem;
+}
+
+.col-about p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.col-img {
+    max-width: 100%;
+}
+
+.services-wrapper {
+    display: flex;
+    justify-content: center;
     padding: 80px 0;
     background-color: var(--light-dark);
     color: var(--light-white);
 }    
 
 .services-wrapper h2 {
-        font-family: 'Teko', sans-serif;
-        letter-spacing: 2.25px;
-        font-size: 3.5em;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 3.5em;
 }
 
 .services-wrapper span {
@@ -29,21 +72,52 @@
     background-color: var(--bg-black);
 }
 
-.services-wrapper h2{
+.cards-wrapper h2{
     font-size: 3.5em;
     color: var(--light-white);
     font-family: 'Teko', sans-serif;
     letter-spacing: 2.25px;
 }
 
-.services-wrapper span{
+.cards-wrapper span{
     color: var(--barber-orange);
+}
+
+.col-card {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-card-bottom {
+    margin-left: 16.66666%;
+    max-width: 33.3333%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row-cards {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
 }
 
 /*ipads*/
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px){
+
     .services-wrapper h2 {
         font-size: var(--ipad-h2);
     }

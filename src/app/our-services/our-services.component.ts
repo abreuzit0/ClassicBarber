@@ -10,11 +10,11 @@ import { Title } from '@angular/platform-browser';
 })
 export class OurServicesComponent implements OnInit {
   cards: ICard[] = CARDS;
-  head = 'OUR';
-  coloredHead = 'SERVICES';
+  head = 'NOSSOS';
+  coloredHead = 'SERVIÇOS';
 
   constructor(title: Title) {
-    title.setTitle('Classic Barber - Our Services');
+    title.setTitle('Classic Barber - Nossos Serviços');
   }
 
   ngOnInit(): void {

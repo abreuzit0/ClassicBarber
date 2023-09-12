@@ -1,6 +1,6 @@
 @import '../../../../variables.css';
 
-#feature-banner-wrapper{
+#feature-banner-wrapper {
     height: 70vh;
     background-image: url('../../../../assets/images/shared/feature-background.jpg');
     background-size: cover;
@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-#feature-banner h1 {
+#feature-banner-wrapper h1 {
     font-family: 'Teko', sans-serif;
     letter-spacing: 2.25px;
     font-size: 5.5em;
