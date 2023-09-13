@@ -1,0 +1,90 @@
+@import '../../variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schedules-form-wrapper{
+    background-color: var(--light-dark);
+}
+
+.schedules-form-wrapper form {
+    padding: 60px 0;
+}
+
+.schedules-form-wrapper input {
+    border-radius: 0;
+}
+ 
+.schedules-form-wrapper select {
+    border-radius: 0;
+}
+   
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--light-dark);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid var(--light-white);
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.col-form {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.schedules-btn {
+    background-color: transparent;
+    border: 5px solid var(--barber-orange);
+    color: var(--light-white);
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.schedules-btn:hover {
+    transition: ease-in-out 0.3s 0.3s;
+    background-color: var(--barber-orange);
+    color: var(--light-white);
+}
+ 
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1140px  
+    }
+}
+
+
+@media (min-width: 768px) {
+    .col-form {
+        margin-left: 25%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}

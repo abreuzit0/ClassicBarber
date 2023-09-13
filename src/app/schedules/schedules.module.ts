@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SchedulesComponent } from './schedules.component';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -9,7 +10,11 @@ import { SchedulesComponent } from './schedules.component';
     SchedulesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
+  ],
+  exports: [
+    SchedulesComponent
   ]
 })
 export class SchedulesModule { }

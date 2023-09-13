@@ -1,0 +1,137 @@
+@import '../../../../variables.css';
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.price-wrapper {
+    background-color: var(--light-dark);
+    padding-bottom: 50px;
+}    
+
+.price-wrapper a {
+    margin-bottom: 50px;
+    color: var(--light-white);
+}
+
+h2 {
+    font-family: 'Teko', sans-serif;
+    margin-top: 0;
+    letter-spacing: 2.25px;
+    font-size: 3.5em;
+    color: var(--light-white);
+    padding: 50px 0 40px 0;
+}
+
+span {
+    color: var(--barber-orange);
+}
+
+
+table {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+tr {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 2.25px;
+    font-size: 1.8em;
+    color: var(--light-white);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgb(43, 43, 43);
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-price {
+        margin-left: 25%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/*ipads*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+    h2 {
+        font-size: var(--ipad-h2);
+    }
+
+}
+
+
+/*phones like iphone 11*/
+@media (max-width: 540px) {
+    .price-wrapper h2 {
+            font-size: var(--iphone11-h2);
+        }
+        
+    .price-wrapper table {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .price-wrapper tr {
+        font-size: 1.2em;
+    }
+    
+    .price-wrapper a{
+        margin-top: 40px;
+    }
+}
+/*phones like iphone 6*/
+@media (max-width: 375px) {
+    .price-wrapper h2 {
+            font-size: var(--iphone6-h2);
+    }
+    
+    .price-wrapper tr {
+        font-size: var(--iphone6-p);
+    }
+    
+    .price-wrapper a{
+        padding: 25px 2em;
+    }
+}
+  
+/*small phones like iphone 5*/
+@media (max-width: 350px) {
+    .price-wrapper h2 {
+        font-size: var(--iphone5-h2);
+    }
+     
+    .price-wrappertr {
+        font-size: var(--iphone5-p);
+    }
+     
+    .price-wrappera{
+        padding: 20px 2em;
+    }
+}

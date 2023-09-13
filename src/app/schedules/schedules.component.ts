@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-schedules',
   templateUrl: './schedules.component.html',
   styleUrls: ['./schedules.component.css']
 })
-export class SchedulesComponent {
+export class SchedulesComponent implements OnInit {
+  head = 'MARQUE SEU';
+  coloredHead = 'AGENDAMENTO';
+
+  constructor(private title: Title) {
+    this.title.setTitle('Classic barber - Marque seu agendamento');
+  }
+
+  ngOnInit(): void {
+  }
 
 }
