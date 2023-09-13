@@ -1,23 +1,23 @@
 * {
     --light-white: #e1e1e1;
     --barber-orange: #F36C4F;
-    
+
     --light-dark: #101010;
     --bold-dark: #080808;
     --bg-black: #030303;
-    
+
     --iphone11-h1: 4em;
     --iphone11-h2: 2.5em;
     --iphone11-p: 1em;
-    
+
     --iphone6-h1: 3.5em;
     --iphone6-h2: 2em;
     --iphone6-p: 1em;
-    
+
     --iphone5-h1: 3em;
     --iphone5-h2: 2em;
     --iphone5-p: 0.9em;
-    
+
     --ipad-h2: 3em;
     --ipad-p: 0.9em;
 }
@@ -29,6 +29,7 @@ a {
 
 .navbar {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .navbar .container {
@@ -51,7 +52,7 @@ a {
     background: var(--bg-black);
     box-shadow: none;
 }
-    
+
 .navbar-collapse {
     flex-grow: 0;
     }
@@ -63,7 +64,7 @@ a {
 
 #navbarSupportedContent a {
     color: var(--light-white);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-brand {
@@ -72,7 +73,7 @@ a {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: inherit;
     white-space: nowrap;
 }
@@ -91,6 +92,7 @@ a {
 }
 
 .nav-link {
+    font-size: 1.5rem;
     display: block;
     padding: 0.5rem 1rem;
     height: 48px;
@@ -132,13 +134,13 @@ a {
     z-index: 1030;
 }
 
-@media (min-width: 576px) {   
+@media (min-width: 576px) {
     .navbar-expand-sm {
         flex-flow: row nowrap;
         justify-content: flex-start;
     }
 
-    
+
 
 }
 
