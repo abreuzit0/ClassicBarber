@@ -3,13 +3,8 @@
 @import './variables.css';
 
 
-html {
-    display: block;
-    margin: 0;
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
+html, body {
+    min-height: 100%;
 }
 
 body {

@@ -2,7 +2,7 @@
 
 #feature-banner-wrapper {
     height: 70vh;
-    background-image: url('../../../../assets/images/shared/feature-background.jpg');
+    background-image: url('../../../../assets/images/home/carousel/pic7.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,6 +17,8 @@
     letter-spacing: 2.25px;
     font-size: 5.5em;
     color: var(--light-white);
+    filter: drop-shadow(9px 9px 22px #101010);
+    
 }
  
 #feature-banner-wrapper span {
