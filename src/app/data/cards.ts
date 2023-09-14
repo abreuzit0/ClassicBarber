@@ -2,28 +2,28 @@ import { ICard } from './icard';
 const CARDS: ICard[] = [
 {
     img: '../../../assets/images/our-services/clippers.svg',
-    title: 'TRIMMING',
-    desc: 'Looking to try something new with your facial hair ? we got you covered.'
+    title: 'APARAR',
+    desc: 'Olhando para tentar algo novo com seu cabelo facial? Nós temos a solução.'
 },
 {
     img: '../../../assets/images/our-services/hairbrush.svg',
-    title: 'STYLING',
-    desc: 'Keep looking your best with our professional stylists you\'ll definitely like the results.'
+    title: 'PENTEADO',
+    desc: 'Continue olhando o seu melhor com nossos barbeiros profissionais você definitivamente vai gostar dos resultados.'
 },
 {
     img: '../../../assets/images/our-services/razor.svg',
-    title: 'SHAVING',
-    desc: 'For premium results, at our barbershop, we combine accuracy and smoothness.'
+    title: 'BARBEAR',
+    desc: 'Para resultados premium, na nossa barbearia, combinamos precisão e suavidade.'
 },
 {
     img: '../../../assets/images/our-services/scissors.svg',
-    title: 'HAIRCUT',
-    desc: 'Any cut to your taste weither its your old regular or something completely new.'
+    title: 'CORTE',
+    desc: 'Qualquer corte ao seu gosto é vintage ou algo moderno.'
 },
 {
     img: '../../../assets/images/our-services/massage.svg',
-    title: 'FACIAL MASSAGE',
-    desc: 'Try the set of facial and hair procedures that we offer, you\'ll be more relaxed than ever'
+    title: 'MASSAGEM FACIAL',
+    desc: 'Experimente o conjunto de procedimentos faciais e capilares que oferecemos, você estará mais relaxado do que nunca'
 }
 ];
 

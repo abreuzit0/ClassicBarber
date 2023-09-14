@@ -28,6 +28,7 @@
     
 .about-wrapper h2 {
     font-family: 'Teko', sans-serif;
+    font-weight: 500;
     letter-spacing: 2.25px;
     font-size: 3.5em;
     color: var(--light-white);

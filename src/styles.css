@@ -3,6 +3,15 @@
 @import './variables.css';
 
 
+html {
+    display: block;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;

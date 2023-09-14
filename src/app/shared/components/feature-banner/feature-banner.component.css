@@ -13,6 +13,7 @@
 
 #feature-banner-wrapper h1 {
     font-family: 'Teko', sans-serif;
+    font-weight: 500;
     letter-spacing: 2.25px;
     font-size: 5.5em;
     color: var(--light-white);
