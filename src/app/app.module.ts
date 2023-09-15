@@ -9,6 +9,7 @@ import { SchedulesModule } from './schedules/schedules.module';
 import { ContactsModule } from './contacts/contacts.module';
 import { AboutModule } from './about/about.module';
 import { OurServicesModule } from './our-services/our-services.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
