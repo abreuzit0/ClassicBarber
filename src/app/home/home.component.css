@@ -34,7 +34,7 @@
 .split div:nth-child(2){
     padding: 100px 35% 100px 100px;
     height: 700px;
-    background-image: linear-gradient(rgba(0, 0,0, 0.4),rgba(0, 0, 0, 0.4)), url('../../assets/images/home/home1-bg1.jpg');
+    background-image: linear-gradient(rgba(0, 0,0, 0.4),rgba(0, 0, 0, 0.4)), url('../../assets/images/home/carousel/pic5.png');
     background-size: cover;
 }
 
