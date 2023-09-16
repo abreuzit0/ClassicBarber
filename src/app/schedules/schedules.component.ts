@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -16,5 +16,4 @@ export class SchedulesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

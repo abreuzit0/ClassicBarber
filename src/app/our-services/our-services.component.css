@@ -140,10 +140,17 @@ and (max-device-width : 1024px){
 
 /*phones like iphone 11*/
 @media (max-width: 540px) {
+    .col-about {
+        max-width: 100%;
+        padding: 0 15px 0 15px;
+        margin-bottom: 3rem;
+    }
+    
+    
     .services-wrapper h2 {
         font-size: var(--iphone11-h2);
     }
-        
+    
     .services-wrapper p {
         padding: 30px 0;
         text-align: center;
@@ -153,6 +160,22 @@ and (max-device-width : 1024px){
         margin-bottom: 50px;
     }
     
+    .services-wrapper img {
+        max-width: 400px;
+        max-height: 350px;
+        width: auto;
+        height: auto;
+    }
+
+    .col-card, .col-card-bottom {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-card-bottom {
+        margin-left: 0;
+    }
+
     .cards-wrapper h2 {
         font-size: var(--iphone11-h2);
     }
