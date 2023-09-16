@@ -170,7 +170,6 @@ a {
         box-shadow: none;
     }
 
-
     .nav-item {
         width: 100%;
     }
@@ -182,16 +181,10 @@ a {
         margin-bottom: 0;
         list-style: none;
         flex-direction: column;
-        transition: ease in 0.3s;
     }
 
     .nav-link {
         font-size: 1rem;
-    }
-
-    .nav-link:hover {
-        background-color: var(--light-dark);
-        
     }
 
     #navbarSupportedContent a {

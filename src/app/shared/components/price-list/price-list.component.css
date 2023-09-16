@@ -106,14 +106,6 @@ and (max-device-width : 1024px){
     .price-wrapper a{
         margin-top: 40px;
     }
-
-    .row {
-        display: block;
-    }
-
-    .col-price {
-        margin-bottom: 3rem;
-    }
 }
 /*phones like iphone 6*/
 @media (max-width: 375px) {
