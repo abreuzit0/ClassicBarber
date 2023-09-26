@@ -10,10 +10,6 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-.text-center {
-    text-align: center!important;
-}
-
 .contacts-wrapper{
     padding: 25px 0;
     color: var(--light-white);
@@ -33,3 +29,4 @@ a:link, a:visited, a:hover, a:active {
     line-height: 1.2;
     margin-bottom: 0.5rem;
 }
+

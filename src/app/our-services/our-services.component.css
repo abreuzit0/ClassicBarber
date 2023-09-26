@@ -97,18 +97,12 @@
     padding-left: 15px;
 }
 
-.col-card-bottom {
-    margin-left: 16.66666%;
-    max-width: 33.3333%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
 .row-cards {
     display: flex;
     margin-right: -15px;
     margin-left: -15px;
     flex-wrap: wrap;
+    justify-content: center;
     box-sizing: border-box;
 }
 
@@ -117,6 +111,24 @@
     .container {
         max-width: 1140px;
     }
+
+}
+
+@media (max-width: 1100px) {
+    .col-about {
+        max-width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .row-cards {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .col-card {
+        max-width: 100%;
+    }
+
 }
 
 /*ipads*/
@@ -130,6 +142,11 @@ and (max-device-width : 1024px){
     
     .services-wrapper p {
         text-align: center;
+    }
+
+    .services-wrapper img {
+        width: auto;
+        height: auto;
     }
 
     .cards-wrapper h2 {
@@ -153,9 +170,16 @@ and (max-device-width : 1024px){
         margin-bottom: 50px;
     }
     
+    .services-wrapper img {
+        width: auto;
+        height: auto;
+    }
+
     .cards-wrapper h2 {
         font-size: var(--iphone11-h2);
     }
+
+
 }
 
 /*phones like iphone 6*/
