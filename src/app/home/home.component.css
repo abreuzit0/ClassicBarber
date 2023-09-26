@@ -14,6 +14,7 @@
     font-family: 'Teko', sans-serif;
     letter-spacing: 2.25px;
     font-size: 3.5em;
+    font-weight: 500;
 }
 
 .split span {
@@ -119,7 +120,6 @@ and (max-device-width : 1024px){
     }
 
     .split div:nth-child(2) {
-        width: 100vw;
         text-align: center;
         padding: 50px 35px;
         height: 550px;
