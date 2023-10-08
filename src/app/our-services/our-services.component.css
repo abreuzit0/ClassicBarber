@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .text-center {
     text-align: center!important;
 }

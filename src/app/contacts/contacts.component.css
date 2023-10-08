@@ -30,3 +30,6 @@ a:link, a:visited, a:hover, a:active {
     margin-bottom: 0.5rem;
 }
 
+.text-center {
+    text-align: center!important;
+}

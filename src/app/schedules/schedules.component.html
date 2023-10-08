@@ -1,47 +1,58 @@
-<!-- <div id="schedules-bg-wrapper" class="text-center">
-    <h1>BOOK AN <span>APPOINTMENT</span></h1>
-</div> -->
 <app-feature-banner [head]="head" [coloredHead]="coloredHead"></app-feature-banner>
 
 <div class="schedules-form-wrapper">
     <div class="container">
         <div class="row">
             <div class="col-form">
-                <form action="">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Nome Completo">
+                        <input 
+                        type="text" 
+                        [(ngModel)]="name" 
+                        [ngModelOptions]="{standalone: true}"
+                        class="form-control" 
+                        placeholder="Nome Completo"
+                        required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Telefone">
+                        <input 
+                        type="text" 
+                        [(ngModel)]="phone"
+                        [ngModelOptions]="{standalone: true}"
+                        class="form-control" 
+                        placeholder="Telefone"
+                        required>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Endereço de E-mail">
+                        <input 
+                        type="date" 
+                        [(ngModel)]="date"
+                        [ngModelOptions]="{standalone: true}"
+                        class="form-control" 
+                        placeholder="Data"
+                        required>
                     </div>
                     <div class="form-group">
-                        <input type="date" class="form-control" placeholder="Data">
-                    </div>
-                    <div class="form-group">
-                        <select class="form-control">
-                            <option disabled selected>Horário</option>
-                            <option>10:00</option>
-                            <option>10:50</option>
-                            <option>11:00</option>
-                            <option>11:50</option>
-                            <option>12:00</option>
-                            <option>12:50</option>
-                            <option>13:00</option>
-                            <option>13:50</option>
-                            <option>14:00</option>
-                            <option>14:50</option>
-                            <option>15:00</option>
-                            <option>15:50</option>
-                            <option>16:00</option>
-                            <option>16:50</option>
+                        <select 
+                        class="form-control" 
+                        [(ngModel)]="selectedServOpt"
+                        [ngModelOptions]="{standalone: true}">
+                        <option *ngFor="let s of servOpt" [ngValue]="s">{{ s }}</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <a href=""></a>
-                        <input class="form-control schedules-btn" type="submit" value="Enviar"/>
+                        <select class="form-control" 
+                        [(ngModel)]="selectedTimeOpt"
+                        [ngModelOptions]="{standalone: true}">
+                            <option *ngFor="let t of timeOpt" [ngValue]="t">{{ t }}</option>
+                        </select>
+
+
+                    </div>
+                    <div class="form-group">
+                        <a class="form-control schedules-btn" href="https://api.whatsapp.com/send?phone=351966679875&text=Nome:%20{{ name }}%0ATelefone:%20{{ phone }}%0AData:%20{{ date | date | date:'dd-MM-yyyy'}}%0A%0AOl%C3%A1!%20Gostaria%20de%20agendar%20o%20servi%C3%A7o%20{{ selectedServOpt }}%20para%20o%20dia%20{{ date | date: 'dd'}}%20no%20hor%C3%A1rio%20{{ selectedTimeOpt }}." target="_blank">
+                            Enviar
+                        </a>
                     </div>
                 </form>
             </div>

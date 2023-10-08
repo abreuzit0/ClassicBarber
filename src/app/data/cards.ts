@@ -18,12 +18,17 @@ const CARDS: ICard[] = [
 {
     img: '../../../assets/images/our-services/scissors.svg',
     title: 'CORTE',
-    desc: 'Qualquer corte ao seu gosto é vintage ou algo moderno.'
+    desc: 'Qualquer corte ao seu gosto, seja vintage ou algo moderno.'
 },
 {
     img: '../../../assets/images/our-services/massage.svg',
     title: 'MASSAGEM FACIAL',
     desc: 'Experimente o conjunto de procedimentos faciais e capilares que oferecemos, você estará mais relaxado do que nunca'
+},
+{
+    img: '../../../assets/images/our-services/barber-courses.svg',
+    title: 'CURSOS',
+    desc: 'Forme-se como um barbeiro profissional com aulas práticas.'
 }
 ];
 

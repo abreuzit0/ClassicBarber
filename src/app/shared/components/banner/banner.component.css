@@ -12,6 +12,7 @@
 #banner h1 {
     font-family: 'Teko', sans-serif;
     margin-top: 0;
+    margin-bottom: 0.5rem;
     letter-spacing: 2.25px;
     font-size: 5.5em;
     padding-top: 25vh;
@@ -23,15 +24,15 @@
 }
 
 #banner h4 {
+    position: relative;
     font-size: 1em;
     font-weight: 500;
-    line-height: 1.2;
     color: var(--light-white);
-    margin : 0 auto;
+    margin: 0 auto 5rem auto;
     width: 250px;
 }
 
-#banner h4 ::before {
+#banner h4::before {
     content: "";
     display: block;
     width: 60px;
@@ -42,7 +43,7 @@
     left: 0;
 }
         
-#banner h4 ::after {
+#banner h4::after {
     content: "";
     display: block;
     width: 60px;
@@ -53,7 +54,7 @@
     right: 0;
 }
 
-#banner a{
+#banner a {
     margin-top: 60px;
 }
 
